@@ -18,7 +18,8 @@
 # build for grouper hardware. This cleanly combines a set of
 # device-specific aspects (drivers) with a device-agnostic
 # product configuration (apps).
-#
+
+#WITHOUT_CHECK_API :=true
 PRODUCT_PACKAGES += com.android.apex.cts.shim.v1_prebuilt
 TARGET_FLATTEN_APEX := false
 
